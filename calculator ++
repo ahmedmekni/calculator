@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main(void){
+    cout <<"year of bearth: ";
+    int year_of_bearth;
+    cin >> year_of_bearth;
+
+    int age = 2023 - year_of_bearth;
+    int age_in_mounths = age *12;
+    int age_in_days = age * 365;
+    int age_in_hours = age_in_days * 24;
+    int age_in_minutes = age_in_hours * 60;
+    int age_in_seconds = age_in_minutes * 60;
+
+    printf("your age in years is %i \n", age);
+    printf("age in mounths: %i\n", age_in_mounths);
+    printf("age in days: %i\n", age_in_days);
+    printf("age in hours: %i\n", age_in_hours);
+    printf("age in minutes: %i\n", age_in_minutes);
+    printf("age in seconds: %i", age_in_seconds);
+    
